@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background:rgba(218, 204, 204, 0.527) !important; */
+}
+.form{
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10%;
+}
+.row{
+    height: 100%;
+    padding: 20px;    
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.input-group{
+    margin: 10px 0;
+}
+input{
+    width: 100%;
+}
+.errorMessages{
+    color: red;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
